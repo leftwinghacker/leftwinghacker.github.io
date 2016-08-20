@@ -1,0 +1,556 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<base href="https://leftwinghacker.github.io/" />
+		<title>Full site</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="copyright" href="LICENSE">
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/index.js" type="text/javascript"></script>
+	</head>
+	<body id="page-full">
+		<h1>Full site</h1>
+		<div id="content-container" class="cf">
+			<div id="toc">
+				<div id="toc-collapser" class="js-show">&lt;</div>
+				<div id="toc-expander" class="js-show">&gt;</div>
+				<ol><li>
+<a href="full.html#nav_index">Startseite</a>
+<ol>
+	<li>
+	<a href="full.html#nav_autonomeshandbuch">Autonomes Handbuch</a>
+	<ol>
+		<li>
+		<a href="full.html#nav_autonomeshandbuch-einleitung">Einleitung</a>
+		</li>
+		<li>
+		<a href="full.html#nav_autonomeshandbuch-guidelines">Guidelines</a>
+		<ol>
+			<li>
+			<a href="full.html#nav_autonomeshandbuch-guidelines-packliste-rucksack">Packliste Rucksack</a>
+			</li>
+			<li>
+			<a href="full.html#nav_autonomeshandbuch-guidelines-verhalten-auf-demos">Verhalten auf Demos</a>
+			</li>
+			<li>
+			<a href="full.html#nav_autonomeshandbuch-guidelines-verhaftung">Bei einer Verhaftung</a>
+			</li>
+			<li>
+			<a href="full.html#nav_autonomeshandbuch-guidelines-kampf">Im Kampf</a>
+			</li>
+			<li>
+			<a href="full.html#nav_autonomeshandbuch-guidelines-sanitaeter">Sanitäter</a>
+			</li>
+		</ol>
+		</li>
+		<li>
+		<a href="full.html#nav_autonomeshandbuch-aktionsformen">Aktionsformen</a>
+		</li>
+	</ol>
+	</li>
+</ol>
+</li>
+</ol>
+			</div>
+			<div id="content"><h2 id="nav_index">Startseite</h2>
+<p>Dies ist die Internetseite von Left Wing Hacker.</p>
+<p>Hier gibt es in Kürze Informationen zum Twitter-Client "RiotWhistle"
+sowie das "Autonome Handbuch".</p><h2 id="nav_autonomeshandbuch">Autonomes Handbuch</h2>
+<img src="img/antifa_logo.svg" style="height:100px;float:right;padding:10px" alt="antifa logo"/>
+<p>
+Das Autonome Handbuch soll eine Informationsquelle für AktivistInnen aus
+dem gesamten linken Spektrum sein.
+</p>
+<p>Im Autonomen Handbuch gibt es:</p>
+<ul>
+	<li>Richtlinien für das richtige Verhalten auf Demonstrationen und bei anderen Aktionsformen</li>
+	<li>Informationen über Aktionsformen, deren rechtliche Rahmenbedingungen und ggf. mögliche Folgen</li>
+	<li>Technische Anleitungen (z.B. Verschlüsselung der Kommunikation)</li>
+	<li><strong>keine</strong> Anleitungen für die Herstellung von Sprengsätzen oder Waffen.</li>
+</ul>
+<p>
+Das Autonome Handbuch ist auf GitHub von jedem im Quelltext einsehbar.
+Jede/r AktivistIn kann Vorschläge für Änderungen oder Ergänzungen machen;
+bitte beachtet jedoch beim Einreichen oder der Kontaktaufnahme:
+</p>
+<ul>
+	<li>
+		Da das AH für möglichst viele Personen zugänglich sein soll,
+		akzeptieren wir keine (Bau-)Anleitungen für gefährliche Gegenstände
+		wie Pyrotechnik, Sprengstoffe, Molotowcocktails o.Ä.<br />
+		Bitte akzeptiert, dass wir solche Anfragen oder Inhalte
+		schon aus Eigenschutzgründen löschen müssen.
+	</li>
+	<li>
+		Das AH benutzt grundsätzlich die Binnen-I-Schreibweise.<br />
+		Wir bitten bei Einreichungen, es ebenso zu handhaben.
+	</li>
+	<li>
+		<strong>GitHub-Anfragen sind öffentlich einsehbar!</strong><br />
+		Wir können per Mail unter <a href="leftwinghacker@gmail.com">leftwinghacker@gmail.com</a>
+		erreicht werden; für verschlüsselte Kommunikation können
+		wir auch per GPG kommunizieren. Unsere Schlüsseldaten:
+<pre>Fingerprint 222A 34C1 547D 243A 77BE  9420 2733 0A16 B0B9 A823
+Ablauf:     Mo 20 Aug 14:36:26 2018 CEST
+UID:        Left Wing Hacker &lt;leftwinghacker@gmail.com&gt;</pre>
+		Bitte beachten: Die "Short-ID" (in diesem Fall <code>0xB0B9A823</code>) zu verwenden,
+		ist <strong>unsicher</strong>. Korrekter Aufruf unter OS X/Linux:
+<pre>gpg --recv-key 222A34C1547D243A77BE942027330A16B0B9A823</pre>
+	</li>
+	<li>
+		Das AH benutzt die Zeichenkodierung UTF-8.<br />
+		Wir bitten bei Einreichungen, explizit darauf zu achten.
+	</li>
+</ul><h2 id="nav_autonomeshandbuch-einleitung">Einleitung</h2>
+<p>
+Im Jahr 2015 gab es über 1000 Angriffe aller Art auf Flüchtlingsheime in
+Deutschland<sup class="ref">[<a href="autonomeshandbuch/aktionsformen.html#ref-0">1</a>]</sup>, davon 92 Brandstiftungen.
+</p>
+<p>
+Diese Gewalttaten und die zunehmende Verrohung der Debattenkultur, sowohl
+im Netz, als auch in der persönlichen Kommunikation, sind
+vornehmlich auf das öffentliche Agieren von rechtspopulistischen bis
+offen rechtsterroristischen Strukturen zurückzuführen; unter Anderem:
+<ul>
+	<li>Parteien: AfD, NPD, 3. Weg, Pro NRW, Die FREIHEIT, DIE RECHTE</li>
+	<li>Gruppierungen: PEGIDA und Ableger, "(Stadt) wehrt sich", Identitäre Bewegung</li>
+	<li>Verlage/Medien: KOPP-Verlag, Compact Magazin, PI News</li>
+</ul>
+</p>
+<p>
+Alleine 288 flüchtlingsfeindliche Demonstrationen fanden 2015 statt,
+dazu noch ungezählte Infostände, Parteiveranstaltungen, Rechtsrock-
+Konzerte und vieles Anderes<sup class="ref">[<a href="autonomeshandbuch/aktionsformen.html#ref-1">2</a>]</sup>.
+</p>
+<p>
+Die genannten Strukturen schaffen ein gesellschaftliches Klima des
+Hasses und der Angst. Menschen mit Migrationshintergrund werden z.B.
+wieder durch Straßen gejagt, AntifaschistInnen mit Messern fast ermordet<sup class="ref">[<a href="autonomeshandbuch/aktionsformen.html#ref-2">3</a>]</sup>.
+</p>
+<p>
+Es ist, spätestens angesichts 15% Stimmen für die AfD<sup class="ref">[<a href="autonomeshandbuch/aktionsformen.html#ref-3">4</a>]</sup>,
+an der Zeit für alle AntifaschistInnen und Demokraten, aufzustehen
+und etwas gegen den braunen Spuk zu unternehmen, der durch Deutschland
+schwebt und hetzt.
+</p>
+<p>
+Gegen rechte Hetze, ihre Akteure und Aktionen bieten sich eine Vielzahl
+von Aktionen an. Um hier die populärsten zu nennen:
+</p>
+<ul>
+	<li>Infostände</li>
+	<li>Demonstrationen</li>
+	<li>Konzerte</li>
+	<li>Sitzblockaden</li>
+	<li>Recherchen und Outings</li>
+	<li>Markierungen von Objekten: Farbbeutel, Spraydosen</li>
+	<li>Entglasungen</li>
+</ul>
+<p>
+Wir stellen diese und noch mehr Aktionsformen im AH dar und versehen
+sie mit kurzen Informationen über rechtliche Eckdaten, damit jede/r
+Interessierte die für ihn/sie persönlich tragbare Aktion durchführen
+oder daran teilnehmen kann.
+</p>
+<p>
+<strong>Jedes antifaschistische Engagement ist wichtig und richtig. Egal ob
+"bürgerlich" oder "militant", egal ob Einzelaktion oder Massenbewegung.</strong>
+</p>
+<p>
+<strong>Keinen Fußbreit den Faschisten und ihren Strukturen!</strong>
+</p>
+<h2 id="nav_autonomeshandbuch-guidelines">Guidelines</h2>
+<p>
+	Auf den Unterseiten findet Ihr einige wichtige "Richtlinien" für
+	Demos.
+</p>
+<h2 id="nav_autonomeshandbuch-guidelines-packliste-rucksack">Packliste Rucksack</h2>
+<p>
+Die wichtigste Frage, wenn man zu einer Demo geht: was packe ich in den
+Rucksack?
+</p>
+<p>
+Hier einige wichtige Dinge, die auf Demos nie schaden können bzw. zwingend nötig sind:
+</p>
+<ul>
+	<li>Geldbeutel, am besten mit 25-50&euro; gestückeltem Bargeld (ÖPNV, Taxi, Verpflegung, Bußgelder)</li>
+	<li>EC-Karte (für den Fall, dass aufgrund eines Bußgelds o.Ä. ein Vollstreckungshaftbefehl offen ist)</li>
+	<li>Krankenversicherungskarte</li>
+	<li>Personalausweis</li>
+	<li>
+		Verpflegung:
+		<ul>
+			<li>Wasser (still; mindestens 0.5l, besser: 1 bis 2 l)</li>
+			<li>Traubenzucker (z.B. "Dextro Energy")</li>
+			<li>
+				Sandwiches, Semmeln (am besten vegan oder vegetarisch, dann könnt Ihr auch Menschen helfen, die keine Verpflegung mitnehmen konnten)
+			</li>
+			<li>Müsliriegel</li>
+		</ul>
+	</li>
+	<li>
+		Medizin, die Ihr benötigt<br />
+		Bei verschreibungspflichtigen Medikamenten, insb. bei Narkotika, auch eine Kopie des Rezepts/der Apothekenquittung!
+	</li>
+	<li>
+		Transparente, Plakate, Fahnen<br />
+		Bedenkt bei Transparenten und Fahnen die Auflagen der Versammlungsbehörden (Länge/Breite, Durchmesser des Fahnenstocks)!<br />
+		Insbesondere extrem kurze, aber dicke Stöcke ("Knüppelfahnen") können zu einer Verhaftung führen.
+	</li>
+	<li>
+		Telefonnummer des <abbr title="Ermittlungsausschuss, vermittelt u.A. Anwälte">EA</abbr>, der Demo-Sanitäter und eines Familienmitglieds, sofern vorhanden<br />
+		Am besten auf den Oberarm schreiben (lassen) und einen wasserfesten Stift mitnehmen. Die Bullen können Euch nämlich Zettel und Handys beschlagnahmen, bevor Ihr den EA anrufen könnt.
+	</li>
+	<li>Aktionskarte(n), sofern vorhanden</li>
+	<li>
+		Gültiges Ticket für den ÖPNV<br />
+		Gerade in "Demoklamotten" seid Ihr bevorzugtes Ziel von Kontrolleuren und/oder Bullen, und schon vor der Demo aus dem Spiel genommen werden ist scheiße.
+		Außerdem kostet Schwarzfahren mittlerweile 60&euro;, das Geld ist in Materialien sicher besser investiert.
+	</li>
+	<li>Wenn Ihr Haustiere habt: Telefonnummer einer Vertrauensperson, die im Fall einer Verhaftung das Tier versorgen kann</li>
+	<li>
+		Bekleidung<br />
+		Im Winter: unbedingt ausreichend warm anziehen. Generell, wenn möglich, Wechselklamotten - z.B. wenn Ihr Pfefferspray oder Wasser abgekriegt habt.<br />
+		<strong>Achtung</strong>: Keine auffälligen Klamotten, insb. Schuhe! Je auffälliger, desto einfacher erkennen Euch die Bullen wieder, auch wenn der Rest gewechselt ist!
+	</li>
+	<li>
+		Persönliche Hygieneartikel: Binden, Tampons.<br />
+		Auch Männer sollten, wenn möglich, etwas dabeihaben, für den Fall, dass einer Aktivistin das Material abhandenkommt.
+	</li>
+	<li>
+		Lärminstrumente: Pfeifen, Megafone<br />
+		Pfeifen gehen immer. Megafone können die Bullen unter Umständen untersagen bzw. beschlagnahmen; beachtet den Auflagenbescheid.
+	</li>
+	<li>
+		Für Langhaarige: Mützen oder zumindest eine Cap<br />
+		Nichts ist unpraktischer und für Euch gefährlicher, als im falschen Moment lauter Haare im Gesicht zu haben.
+	</li>
+	<li>
+		Sehhilfen<br />
+		Brillen am besten mit einem Faden zwischen den Bügeln hinter dem Kopf sichern, damit sie nicht herunterfallen können.<br />
+		<strong>Achtung</strong>: Brillen mit Echtglas haben auf Demos nichts zu suchen. Das Glas kann splittern und Euer Auge unrettbar verletzen.<br />
+		Am besten haben sich Kunststoffgläser in Titanflex/Flexon-Fassungen erwiesen. Die halten auch direkte Fausttreffer aus.
+	</li>
+	<li>
+		<strong>Kritisch</strong>: Leuchtmittel<br />
+		Leuchten sind grundsätzlich praktisch, aber: fette Maglites können die Bullen als Waffe auslegen, und mit Knicklichtern/kleinen Lampen könnt Ihr Bullen in der Dunkelheit Eure Position verraten.
+	</li>
+	<li>
+		<strong>Kritisch</strong>: Vermummungsmaterialien (Schlauchschals etc.)<br />
+		Achtung: in manchen Bundesländern gilt ein Vermummungsverbot auf Demos, und Bullen nehmen manchmal schon das Mitführen als Anlass für eine Anzeige.
+		Im Winter bieten sich aber beispielsweise Schals und Handschuhe an.
+	</li>
+	<li>
+		<strong>Kritisch</strong>: Mobiltelefon<br />
+		Am besten lasst Ihr Euer normales Smartphone zuhause. Die Daten, insbesondere Telefonbücher und Messenger-Archive, sind eine beliebte Goldgrube für Bullen.
+		Ein normales "Brickphone" mit einer möglichst nicht auf Euch registrierten SIM-Karte (viele Handy-Shops bieten voraktivierte Karten an) ist das Beste.<br />
+		Falls Ihr nicht auf ein Smartphone verzichten könnt, z.B. zur Koordination innerhalb Eurer Gruppe, aktiviert unbedingt die Verschlüsselungsoptionen (dazu siehe später im AH).
+		Löscht alle Beweisfotos/Videos von Euch oder anderen Leuten bei Aktionen (z.B. die entglaste Faschokarre vom Abend davor), bevor Ihr Euch auf den Weg macht.
+	</li>
+	<li>
+		<strong>Kritisch</strong>: Sticker, Spuckis<br />
+		Das Mitführen von Aufklebern und vor allem deren Benutzung während einer Demo (bei so gut wie jeder Demo sind Zivi-Bullen dabei) kann Streß geben.
+	</li>
+	<li>
+		<strong>Nicht mitnehmen</strong>: Piercings, Ohrringe, Schmuck, Schminke, Kontaktlinsen<br />
+		Ausreißen und Hängenbleiben gibt sehr hässliche und gefährliche Wunden. Frischere Piercinglöcher und Tattoos mit Pflaster abkleben, damit Reizgas und Dreck nicht reinkommen.<br />
+		Schminke und Kontaktlinsen reichern Pfefferspray und andere Schadstoffe an!
+	</li>
+	<li>
+		<strong>Nicht mitnehmen</strong>: Drogen aller Art (auch bitte nicht vor oder während der Demo konsumieren!), Waffen und Schutzausrüstung<br />
+		Als "Schutzausrüstung" und "Waffen" gelten auch Zahnschützer, Stahlkappenschuhe, Taschenmesser und Ähnliches.
+	</li>
+	<li>
+		<strong>Nicht mitnehmen</strong>: Pyros, Mollies, Sprengstoff<br />
+		Damit gefährdet Ihr Euch und Andere. Höchste Vorsicht geboten, von der Strafbarkeit ganz abgesehen.<br />
+		Wenn Ihr Pyros mitnehmt, bitte nehmt dann auch Löschmittel (Eimerchen/Tüte Sand) mit, für den Fall, dass ein Pyro schnell gelöscht werden muss.
+	</li>
+	<li>
+		<strong>Nicht mitnehmen</strong>: benutzte Notizbücher, Telefonbücher, Zettel, alte Fahrkarten<br />
+		Die Bullen können all diese Gegenstände bei einer Verhaftung beschlagnahmen und ggf. auswerten. Falls sie den Verdacht haben, dass Ihr an einer Aktion beteiligt wart,
+		können sie Informationen auf Fahrscheinen als Indiz für eine Beteiligung ansehen.
+	</li>
+	<li>
+		<strong>Nicht mitnehmen</strong>: Tiere (Hunde, aber gerade im ländlichen Raum auch Pferde)<br />
+		Tiere auf Demonstrationen mitnehmen ist Tierquälerei. Lärm und Menschenmassen sind pure Folter für Eure Lieblinge.<br />
+		Abgesehen davon gefährdet Ihr mit Tieren auf einer Demo Euch selber, Eure Mitdemonstranten und Umstehende, falls das Tier "durchgeht" vor Panik.<br />
+		Wenn Ihr Euch beim Gassigehen in eine Demo einreiht, bitte bleibt möglichst am Rand der Demo, und bei Polizeibegleitung außerhalb vom Kessel!
+	</li>
+</ul>
+<p>
+Wenn Ihr keinen Personalausweis, Führerschein o.Ä. dabei habt, bedenkt, dass Euch die Polizei
+unter Umständen zur Identitätsfeststellung auf die Wache mitnehmen darf<sup class="ref">[<a href="autonomeshandbuch/aktionsformen.html#ref-4">5</a>]</sup>!
+</p>
+<p>
+Die als "kritisch" eingestuften Gegenstände bitte nur mitnehmen, wenn Ihr Euch über das mit den Gegenständen verbundene Risiko im Klaren seid.
+</p>
+<p>
+Die als "nicht mitnehmen" eingestuften Gegenstände bitte <strong>keinesfalls</strong> mitnehmen. Je nach Gegenstand gefährdet Ihr mit der Mitnahme Euch selber, andere AktivistInnen, Umstehende, Bullen und Faschos (aufsteigend nach Unwichtigkeit sortiert).
+</p>
+<h2 id="nav_autonomeshandbuch-guidelines-verhalten-auf-demos">Verhalten auf Demos</h2>
+<p>
+Um Euch und Andere nicht zu gefährden, hier ein paar Tipps über richtiges Verhalten
+auf Demos:
+</p>
+<ul>
+	<li>
+		Bitte keine Fotos von Mit-AktivistInnen anfertigen.
+		Wenn doch und vor Allem, wenn Ihr sie für Demo-Berichte ins Netz stellt: auf jeden Fall verpixeln!
+	</li>
+	<li>
+		Wenn Ihr besonders schöne Plakate, Transpis etc. fotografieren wollt, fragt die TrägerInnen um
+		Erlaubnis und versucht, so wenig wie möglich von Gesichtern auf dem Bild zu haben.
+	</li>
+	<li>
+		Wenn Ihr Faschos fotografiert: offiziell sind Porträtfotos verboten, nur Übersichtsaufnahmen sind legitim.
+	</li>
+	<li>
+		Aus aktuellem Anlass: bitte auch schauen, dass Ihr keine Schuhe auf den Bildern habt bzw.
+		diese auch verpixelt. Die Bullen nutzen auch Internetfotos, um nach auffälligen Schuhen zu suchen!
+	</li>
+	<li>
+		An die Raucher: bitte passt mit Glimmstängeln und Feuerzeugen auf, dass Ihr nicht versehentlich
+		Umstehende oder die Umgebung verbrennt. Zigarettenstummel bitte sauber ausdrücken, vor allem im Sommer,
+		und in den nächsten Mülleimer werfen.
+	</li>
+	<li>
+		Fahrräder wenn möglich zuhause lassen oder etwas weiter entfernt (außer Sichtweite der Bullen) abstellen und absperren.<br />
+		Wenn Ihr bei einer marschierenden Demo dabei seid, haltet Euch mit Fahrrädern am besten am hinteren Rand der Demo auf.<br />
+		Fahrräder können aber auch praktisch sein, wenn Ihr z.B. nach einem Farbbeutelwurf schnell abhauen wollt - denkt dran,
+		Euer Fahrrad von eindeutigen Merkmalen (Aufkleber, Gepäckkörbe) zu befreien, bevor Ihr auf die Demo fahrt.
+	</li>
+	<li>
+		Unterhaltet Euch nicht auf Demos über vergangene oder geplante Aktionen - und klärt Streitigkeiten außerhalb der Demo!<br />
+		Die Bullen schicken gerne Zivi-Bullen in die Menge!
+	</li>
+	<li>
+		Passt auf, was Ihr zu Bullen sagt. Höflichkeit schadet nie, aber keinesfalls Informationen preisgeben - auch nicht
+		über Euch! <strong>Anna und Arthur halten's Maul</strong>.
+	</li>
+	<li>
+		An- und Abreise am Besten in Gruppen. Verringert das Risiko, dass Bullen oder Faschos sich Einzelpersonen schnappen.
+	</li>
+	<li>
+		Wenn Ihr unbedingt Gegenstände auf Bullen oder Faschos werfen wollt (wovon wir dringendst abraten): passt auf die Wurflinie
+		auf, gefährdet nicht unnötig AktivistInnen!
+	</li>
+	<li>
+		Wenn Ihr merkt, dass jemand verhaftet und/oder verletzt wurde: benachrichtigt <strong>sofort</strong> den EA, die Demo-Sanis und
+		die "echten" Sanis.
+	</li>
+	<li>
+		Wenn Ihr merkt, dass Bullen eskalieren bzw. gewalttätig werden: Kamera raus, Aufnahme starten und laut schreien, dass Ihr filmt.<br />
+		Aufpassen, dass Ihr potenziell strafbare Aktionen von AktivistInnen nicht mit auf das Video kriegt.<br />
+		Videos bitte so schnell wie möglich an den lokalen EA/Rote Hilfe übergeben, Originalaufnahmen danach löschen!
+	</li>
+	<li>
+		Wenn Ihr merkt, dass sich die Demo in eine Richtung entwickelt, die Ihr mit Eurer individuellen Risikobereitschaft nicht mehr
+		mittragen wollt: versucht die Demo zu verlassen, oder zumindestens an den Rand zu kommen. Verlangt, die Demo verlassen zu dürfen.
+	</li>
+	<li>
+		Bitte verlasst Euren Demonstrationsplatz sauber. Will vor allem heißen: Müll mitnehmen! Ansonsten kann die
+		Kommune dem Veranstalter die Reinigung in Rechnung stellen!
+	</li>
+</ul>
+<h2 id="nav_autonomeshandbuch-guidelines-verhaftung">Bei einer Verhaftung</h2>
+<p>Wenn Ihr verhaftet werdet, beachtet bitte folgendes:</p>
+<ul>
+	<li>
+		Dem Gesetz nach müsst Ihr bei einer Verhaftung wahrheitsgemäß antworten auf folgende Fragen eines Polizeibeamten/Staatsanwalts/Richters:<br />
+		Vorname, Nachname, Adresse, Geburtsdatum, -ort, -land, Staatsangehörigkeit, allg. Berufsbezeichnung<sup class="ref">[<a href="autonomeshandbuch/aktionsformen.html#ref-5">6</a>]</sup>.<br />
+		<strong>Mehr nicht</strong>.
+	</li>
+	<li>
+		Ihr habt das Recht auf einen Telefonanruf. Und das solange, bis Ihr eine Vertrauensperson oder einen Anwalt erreicht.<br />
+		Faktisch ignorieren das die Bullen gerne und lassen nur einen Anruf zu; am Besten, Ihr ruft eine Vertrauensperson an -
+		diese kann z.B. neben dem Anwalt auch den Arbeitgeber informieren oder für die Betreuung von Haustieren sorgen.
+	</li>
+	<li>
+		Ohne Haftbefehl könnt Ihr (je nach Zeitpunkt der Verhaftung) max. 48h festgehalten werden ("bis zum Ende des Tages nach dem Ergreifen"<sup class="ref">[<a href="autonomeshandbuch/aktionsformen.html#ref-6">7</a>]</sup>).
+	<li>
+		Ohne anwaltliche Beratung, am Besten durch vom EA/der Roten Hilfe vermittelte Fachanwälte,
+		<strong>keine Aussage als Beschuldigter gegenüber Polizei und Staatsanwaltschaft</strong>.<br />
+	</li>
+	<li>
+		Lassen Euch die Bullen unter einem Platzverweis laufen, dann haltet diesen im eigenen Interesse auch ein.<br />
+		Zuwiderhandlungen bedeuten gerne Knast oder dickes Bußgeld.
+	</li>
+</ul>
+
+<strong>Dieser Bereich braucht dringend Überprüfung und Erweiterung durch juristisch Geschulte. Bitte Ergänzungen immer mit Gesetzesgrundlage verlinken!</strong><h2 id="nav_autonomeshandbuch-guidelines-kampf">Im Kampf</h2>
+<p>
+Es kann (und wird) Euch passieren, dass Ihr in einem Kampf landet. Ob mit
+Bullen oder Faschos, ist zweitrangig, wichtig ist Folgendes:
+</p>
+<ul>
+	<li>
+		bei Bullen lohnt sich das Kämpfen nur in erheblicher Überzahl, vor allem aufgrund der guten Schutzausrüstung der Bullen.
+		Widerstand bei der Verhaftung oder Gefangenenbefreiung zählen Bullen und Justiz gerne als schwere Straftaten.
+	</li>
+	<li>
+		Falls der Gegner ein Messer oder eine Hieb/Stichwaffe (z.B. Axt, Schraubendreher) in der Hand hält: <strong>Abstand schaffen und halten</strong>.<br />
+		Nahkampfwaffen sind wirkungslos, wenn sie nicht an Euch können (außer der Täter wirft sie, aber das ist eher selten).
+	</li>
+	<li>
+		Zum Abstand schaffen eignen sich lange Fahnenstangen, Bretter, Paletten, Äste... hauptsache lang und stabil.<br />
+		Wenn Ihr CS-Gas oder Pfefferspray habt - auch das funktioniert sehr effektiv, vor allem gegen die Augen / ins Gesicht;
+		Pfefferspray wirkt allerdings besser gegen Betrunkene. Wichtig: Auf die Windrichtung und die Sprührichtung achten,
+		damit Ihr nicht Euch selber oder Eure FreundInnen erwischt!
+	</li>
+	<li>
+		Setzt die Gegenseite Pfefferspray ein, so schnell wie möglich die betroffenen Stellen mit Wasser spülen und kontaminierte
+		Kleidung ablegen / wechseln. Zur Augenspülung eignet sich stilles Wasser oder spezielle Lösung aus der Apotheke.<br />
+		<strong>Kontaktlinsen und Schminke zwingend entfernen! Pfefferspray reichert sich darin an</strong>.<br />
+		Zur Schmerzlinderung eignen sich Alkohol und Milch (beides keinesfalls schlucken!).
+	</li>
+	<li>
+		Falls Ihr angegriffen werdet und klar unterlegen seid: Ruft um Hilfe! Macht Lärm, und ruft zur schlimmsten Not die Bullen
+		(wenn das nicht eh schon ein Anwohner / Passant macht).
+	</li>
+	<li>
+		Bevor Ihr auf einen Angreifer losgeht oder grundsätzlich nach jedem Kampf: prüft Euch selbst und gegenseitig auf
+		Verletzungen. Gerade Schnittwunden bluten oft extrem, aber aufgrund des Adrenalins bemerkt Ihr sie selber nicht!
+	</li>
+	<li>
+		Überschätzt Euch und Eure Fähigkeiten nicht. Judo und Karate sind Nahkampfkünste, die helfen nichts bei bewaffneten Gegnern!
+	</li>
+	<li>
+		Geht <strong>niemals</strong> in Kämpfe oder auf Demos mit Kampfpotenzial, wenn Ihr übermüdet oder auf Drogen jeder Art seid.<br />
+		<strong>Ihr gefährdet damit Euch selber und Eure Freunde</strong>.
+	</li>
+	<li>
+		Lasst die Finger von Dopingmitteln.
+	</li>
+	<li>
+		Wenn Ihr Schläge auf den Kopf, in den Bauchraum oder die Geschlechtsteile kassiert und Schmerzen habt: geht zum Arzt!<br />
+		Wenn nötig, ruft auch einen Krankenwagen. "Heldenmut" oder "Mackertum" ("ein Mann hält das aus") sind absolut dämlich.
+	</li>
+	<li>
+		Bei offenen Wunden, insbesondere nach (Hunde)Bissen, geht ins Krankenhaus und lasst Euch gegen Tetanus impfen. Falls
+		sie nach dem Tier fragen, erzählt was in Richtung "war im Park joggen" - wenn Ihr mit "mein Hund" antwortet, informieren
+		manche Kliniken die Tierschutzbehörden.
+	</li>
+</ul>
+<h2 id="nav_autonomeshandbuch-guidelines-sanitaeter">Sanitäter</h2>
+<p>
+Für angehende Demo-SanitäterInnen wollen wir auch ein paar Informationen
+bereit stellen. Als Erstes die Liste der häufigsten Verletzungen - die
+unterscheidet sich erheblich von dem, was man im "normalen" Erste-Hilfe-Kurs
+beigebracht bekommt. Wir haben die Liste gruppiert nach "Ursache":
+</p>
+<ul>
+	<li>
+		Wetter-, verhaltens- und krankheitsbedingt:
+		<ul>
+			<li>Dehydrierung</li>
+			<li>Sonnenstich</li>
+			<li>Hitzschlag</li>
+			<li>Unterkühlung</li>
+			<li>Unterzucker</li>
+			<li>Überzucker</li>
+			<li>Schwächeanfälle</li>
+			<li>Psychische Probleme (PTSD nach Polizeigewalt)</li>
+			<li>Insektenstiche und andere Allergien</li>
+		</ul>
+	</li>
+	<li>
+		Bullenbedingt:
+		<ul>
+			<li>Prellungen durch Schlagstockeinsatz oder Stürze</li>
+			<li>Beschwerden an Haut, Schleimhäuten und Augen durch Pfefferspray</li>
+			<li>Hundebisse</li>
+			<li>Schürfwunden nach schwereren Stürzen</li>
+			<li>Platzwunden durch Schlagstockeinsatz</li>
+			<li>Knochenbrüche</li>
+		</ul>
+	</li>
+	<li>
+		Aktionsbedingt:
+		<ul>
+			<li>Knalltraumata</li>
+			<li>Verletzungen durch Brandsätze, Sprengkörper o.Ä.</li>
+		</ul>
+	</li>
+</ul>
+<p>
+Grundsätzliche "Leitlinien" für Demo-SanitäterInnen:
+</p>
+<ol>
+	<li>
+		Verhaltet Euch als Demo-Sanis (politisch) neutral. Bei Großdemonstrationen kann eine Kooperation mit Veranstalter
+		und Polizei unter Umständen sinnvoll sein (Kooperation im Sinne von "die wissen wer Ihr seid, und die wissen, dass
+		Ihr friedlich seid und bleibt", nicht mehr!).
+	</li>
+	<li>
+		Dazu gehört auch: bitte verhaltet Euch gemäß dem Hippokratischen Eid - will heißen, jede/r Verletzte oder
+		Hilfsbedürftige wird nach bestem Wissen und Gewissen versorgt, auch Bullen.
+	</li>
+	<li>
+		Trainiert regelmäßig. Ob als Demosani-Gruppe, beim Roten Kreuz oder anderen Hilfsorganisationen, ist egal -
+		nichts geht über praktische Übung.
+	</li>
+	<li>
+		Außer es ist unbedingt notwendig, tut bitte nichts, das Ihr nicht beherrscht. Im Zweifelsfall lieber den
+		Rettungsdienst per 112 alarmieren.
+	</li>
+	<li>
+		Auf manchen Demos haben die Bullen eigene Sanis. Bitte Patienten nicht an diese übergeben, nur an die
+		"echten" Sanis des lokalen Rettungsdienstes! Einzige Ausnahme: akute Lebensgefahr.
+	</li>
+	<li>Seid erkennbar. Uniformen ähnlich denen des Rettungsdiensts haben sich gut bewährt, genauso wie ein "Notfallhandy".</li>
+	<li>Vernetzt Euch - Demosani-Gruppen gibt es in jeder größeren Stadt.</li>
+</ol>
+<p>
+An Ausstattungsideen:
+</p>
+<ol>
+	<li>
+		Zum Start genügt ein normaler Kfz-Verbandskasten oder zwei, um die "üblichen" Verletzungen
+		(Schürfwunden, Platzwunden) kostengünstig abzudecken.
+	</li>
+	<li>
+		Augenspüllösung, Traubenzucker und vor allem Wasser sind eine mehr als gute Ergänzung, da viele AktivistInnen
+		aus Gewichtsgründen oftmals am Wasser sparen und dann nach stundenlangen Kesseln dehydrieren.
+	</li>
+	<li>
+		Instant-Coolpacks sind teuer (ca. 1&euro;/Stk.), aber wirken Wunder bei Prellungen, Insektenstichen und Ähnlichem.
+	</li>
+	<li>
+		Wenn Ihr Sanis auf höherem Level als EH habt: Stethoskop, Blutzucker- und druckmesser und ein Fieberthermometer
+		sind eine sinnvolle Investition.
+	<li>
+		Teuer (ab ca. 250&euro; mit Inhalt) sind "richtige" Sanitäter-Rucksäcke (gibt es z.B. für betriebliche Ersthelfer).
+	</li>
+	<li>
+		Auf Demos mit Riot-Potenzial nehmen diverse Demosani-Gruppen auch kleine Feuerlöscher mit; die sind insbesondere
+		praktisch wenn jemand Mollies danebenwirft oder unaufmerksame RaucherInnen Feuer auslösen. Sie helfen <strong>nicht</strong>
+		beim Löschen von Pyrotechnik! Dafür braucht es spezielle Metallbrand-Löscher oder einen (schweren) Eimer Sand.
+	</li>
+</ol>
+<h2 id="nav_autonomeshandbuch-aktionsformen">Aktionsformen</h2>
+<p>
+Auf den Unterseiten findet Ihr viele Aktionsformen kurz vorgestellt und
+rechtlich bewertet.
+</p>
+<p>Wir freuen uns immer über Vorschläge und Ergänzungen.</p><h2>Referenzen</h2>
+<ol class="refs">
+	<li><a id="ref-0" href="http://www.spiegel.de/politik/deutschland/fluechtlingsheime-bundeskriminalamt-zaehlt-mehr-als-1000-attacken-a-1074448.html">SPIEGEL Online: Gewaltwelle: BKA zählt mehr als tausend Attacken auf Flüchtlingsheime</a>
+	<li><a id="ref-1" href="http://de.indymedia.org/sites/default/files/2016/04/chronik_2015.pdf">Amadeu Antonio Stiftung: Chronik rassistischer Versammlungen und Übergriffe in Deutschland 2015</a>
+	<li><a id="ref-2" href="https://linksunten.indymedia.org/de/node/187603">Indymedia linksunten: Mordanschlag auf Antifaschisten in Dortmund</a>
+	<li><a id="ref-3" href="http://www.spiegel.de/politik/deutschland/wahlergebnisse-2016-in-der-analyse-afd-mobilisiert-nichtwaehler-a-1081852.html">SPIEGEL Online: Wahlanalyse: AfD mobilisiert Enttäuschte - nicht Überzeugte</a>
+	<li><a id="ref-4" href="https://dejure.org/gesetze/StPO/163b.html">dejure.org: § 163b: Maßnahmen zur Identitätsfeststellung</a>
+	<li><a id="ref-5" href="https://dejure.org/gesetze/OWiG/111.html">dejure.org: OWiG §111: Falsche Namensangabe</a>
+	<li><a id="ref-6" href="https://dejure.org/gesetze/GG/104.html">dejure.org: GG Art. 104</a>
+</ol>
+</div>
+		</div>
+		<div id="footer">
+			&copy; 2016 by Left Wing Hacker &amp; Contributors.
+			Contribute on <a href="https://github.com/leftwinghacker/leftwinghacker.github.io">GitHub</a>.
+			Licensed under <a rel="license" href="LICENSE">CC-BY-NC-SA 3.0</a>.
+		</div>
+	</body>
+</html>
+		
