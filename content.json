@@ -16,6 +16,12 @@
                         {
                             "title":"Packliste Rucksack",
                             "id":"packliste-rucksack"
+                        },{
+                            "title":"Verhalten auf Demos",
+                            "id":"verhalten-auf-demos"
+                        },{
+                            "title":"Bei einer Verhaftung",
+                            "id":"verhaftung"
                         }
                     ]
                 },{
