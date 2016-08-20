@@ -131,3 +131,11 @@ div.ref-preview {
 	padding:5px;
 	box-sizing:border-box;
 }
+@media (max-device-width: 500px) {
+	#content-container {
+		height: calc(100% - 32px - 60px);
+	}
+	#footer {
+		height: 60px;
+	}
+}
