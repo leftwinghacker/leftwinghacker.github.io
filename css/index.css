@@ -26,6 +26,7 @@ h1 {
 	text-align:center;
 	font-size:26px;
 	line-height:28px;
+	margin:2px 0px;
 }
 h2 {
 	font-size:20px;
@@ -37,7 +38,7 @@ p {
 code {
 }
 #content-container {
-	height: calc(100% - 28px - 30px);
+	height: calc(100% - 32px - 30px);
 }
 #content-container > div {
 	float:left;
@@ -49,8 +50,50 @@ code {
 	padding:10px;
 	width:200px;
 	border:1px solid black;
+	position:relative;
+	overflow:visible !important;
+}
+#toc-collapser {
+	position:absolute;
+	top:-1px;
+	right:-1px;
+	padding:5px;
+	border:1px solid black;
+	cursor:pointer;
+	display:none;
+}
+#toc-expander {
+	position:absolute;
+	top:-1px;
+	right:-20px;
+	padding:5px;
+	border:1px solid black;
+	background-color:white;
+	cursor:pointer;
+	display:none;
+}
+#toc.hidden #toc-expander {
+	display:block;
+}
+#toc #toc-expander {
+	display:none;
+}
+#toc.hidden #toc-collapser {
+	display:none;
+}
+#toc.hidden {
+	border:0;
+	width:0;
+	padding:0;
+}
+#content.full {
+	width:100%;
+	padding:10px 20px;
+	padding-left:30px;
 }
 #toc > ol {
+	height:100%;
+	overflow:scroll;
 	margin-left:0;
 }
 #toc > ol > li {
