@@ -11,7 +11,13 @@
                     "id":"einleitung"
                 },{
                     "title":"Guidelines",
-                    "id":"guidelines"
+                    "id":"guidelines",
+                    "children":[
+                        {
+                            "title":"Packliste Rucksack",
+                            "id":"packliste-rucksack"
+                        }
+                    ]
                 },{
                     "title":"Aktionsformen",
                     "id":"aktionsformen"
