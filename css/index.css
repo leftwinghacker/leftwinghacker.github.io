@@ -1,0 +1,79 @@
+* {
+	margin:0;
+	padding:0;
+}
+/* http://stackoverflow.com/a/505265 */
+.cf:before,.cf:after { content:" "; display:table; }
+.cf:after { clear:both; }
+.cf { *zoom: 1; }
+
+html,body {
+	height:100%;
+	width:100%;
+	font-family:Arial,sans-serif;
+	font-size: 14px;
+	line-height:16px;
+}
+ol,ul {
+	margin-left:5px;
+	margin-bottom:8px;
+}
+li {
+	margin-left:10px;
+	margin-bottom:4px;
+}
+h1 {
+	text-align:center;
+	font-size:26px;
+	line-height:28px;
+}
+h2 {
+	font-size:20px;
+	line-height:22px;
+}
+p {
+	margin-bottom: 8px;
+}
+code {
+}
+#content-container {
+	height: calc(100% - 28px - 30px);
+}
+#content-container > div {
+	float:left;
+	box-sizing:border-box;
+	height:100%;
+	overflow:scroll;
+}
+#toc {
+	padding:10px;
+	width:200px;
+	border:1px solid black;
+}
+#toc > ol {
+	margin-left:0;
+}
+#toc > ol > li {
+	margin-left:0;
+	list-style-type:none;
+}
+#toc ol {
+	margin-bottom:4px;
+}
+#toc li {
+	margin-bottom:4px;
+	margin-top:4px;
+}
+#toc a {
+	text-decoration:none;
+	color:#000;
+}
+#content {
+	width:calc(100% - 200px);
+	padding:10px;
+}
+#footer {
+	height: 30px;
+	padding:5px;
+	box-sizing:border-box;
+}

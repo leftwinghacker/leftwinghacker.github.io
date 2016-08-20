@@ -1,0 +1,22 @@
+{
+    "title":"Startseite",
+    "id":"index",
+    "children":[
+        {
+            "title":"Autonomes Handbuch",
+            "id":"autonomeshandbuch",
+            "children":[
+                {
+                    "title":"Einleitung",
+                    "id":"einleitung"
+                },{
+                    "title":"Guidelines",
+                    "id":"guidelines"
+                },{
+                    "title":"Aktionsformen",
+                    "id":"aktionsformen"
+                }
+            ]
+        }
+    ]
+}
