@@ -114,6 +114,14 @@ code {
 #content {
 	width:calc(100% - 200px);
 	padding:10px;
+	position:relative;
+}
+div.ref-preview {
+	position:absolute;
+	background-color:white;
+	opacity:0.9;
+	border: 1px solid black;
+	padding:4px;
 }
 #footer {
 	height: 30px;
