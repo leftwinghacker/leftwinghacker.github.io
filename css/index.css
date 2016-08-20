@@ -71,6 +71,7 @@ code {
 	background-color:white;
 	cursor:pointer;
 	display:none;
+	z-index:1;
 }
 #toc.hidden #toc-expander {
 	display:block;
